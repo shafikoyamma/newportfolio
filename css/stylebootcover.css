@@ -1,0 +1,68 @@
+.downnavs{
+    width: 100%;
+    background-color: rgba(255,255,255, 1);
+
+}
+.marginrihtpush{
+    padding-right: 2em;
+    /* background-color: rgba(255,255,255, 0.); */
+}
+
+.graphicWorks{
+    /* width: 100%; */
+    float: left;
+
+}
+.img{
+    width: 100%;
+}
+
+.grimg{
+    margin-top: 1em;
+}
+
+.more:hover{
+    padding: 2em;
+    opacity: 0.2;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    transition: 1s;
+}
+.spanml{
+    font-size: .5em;
+    text-align: center;
+    font-weight: 500;
+    /* margin-left: 20em; */
+}
+.fbimg{
+    width: 185px;
+}
+.ldnimg{
+    width: 165px;
+    margin-left: 15px;
+}
+.twrimg{
+    width: 50px;
+}
+.twitterfont{
+    color: rgb(0, 172, 238);
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.cborder{
+    border: solid 1px gray;
+    border-radius: 8%;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+#navtab{
+    z-index: 1;
+}
+
+.hrContact{
+    width: 100%;
+    color: black;
+}

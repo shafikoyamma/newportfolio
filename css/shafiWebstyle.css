@@ -1,0 +1,101 @@
+.header1{
+    position: fixed; 
+    width: 100%; 
+    z-index: 1;
+}
+.bold{
+    font-weight: 600;
+}
+#imgface{
+    border-radius: 5%;
+}
+#servicesdiv{
+    background: #d7ebff;
+}
+#imgVedioeditor{
+    width: 40%;
+}
+.cardheight{
+    height: 23em;
+}
+#img-smMark{
+    width: 50%;
+}
+#imgGd {
+    width: 40%;
+}
+
+#imgDe{
+    width: 40%;
+}
+#imgCt{
+    width: 45%;
+}
+
+#qualificationdiv{
+    background: #dfdede;
+}
+
+#imgOnlineC{
+    width: 50%;
+}
+#imgweC{
+    width: 65%;
+}
+
+.cardheight2{
+    height: 27em;
+}
+#imgpol{
+    width: 70%;
+}
+footer{
+    /* height: 4em; */
+}
+.img-linkdn{
+    width: 4em;
+    /* margin-right: 5em; */
+
+}
+.link-con{
+    width: 5em;
+    background: white;
+}
+.img-fb{
+    width: 4em;
+}
+
+.img-wht{
+    width: 1.5em;
+    margin-right: .5em;
+    float: left;
+}
+.left-margin{
+    /* margin-block-end: auto; */
+
+    margin-left: 0vmax;
+}
+
+ul{
+    list-style: none;
+}
+.boarder-left{
+    border-left: 3px solid;
+    border-color: #007bff;
+    margin-left: 0em;
+}
+
+.ctHome:hover{
+    background: #529ae6;
+}
+.ctHome:focus{
+    background: #529ae6;
+
+}
+.nondec{
+    color: white;
+}
+.nondec:hover{
+    color: white;
+    text-decoration: none;
+}

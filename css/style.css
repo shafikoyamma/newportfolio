@@ -1,0 +1,157 @@
+body{
+    margin: 0em;
+    background-image: url(2e3dff35309541.png);
+    padding-left: 4em;
+    padding-top: 3em;
+    padding-right: 4em;
+    padding-bottom: 2em;
+}
+h1{
+    font-size: 2em;
+}
+h1 span{
+    font-size: 3em;
+}
+.containerdiv{
+    /* margin-left: -2em; */
+}
+
+.innercontainerdiv{
+    width: 100%;
+    padding: 0em;
+    margin: 0em;
+}
+
+.home{
+    color: white; 
+    font-size: 1.2em; 
+    font-weight: 800;
+    padding: 0;
+    margin: 0em;
+    margin-bottom: .1em;
+}
+
+.profile{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* opacity: .8; */
+    padding-left: 3em;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+.profil{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* opacity: .8; */
+    padding-left: 0em;
+    padding-top: 2em;
+    padding-right: 0em;
+}
+#imgface{
+    border-radius: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: rgbA(145, 142, 142, 0.7);
+    opacity: .5;
+}
+
+button:hover{
+    opacity: .4;
+    background-color: grey;
+    color: rgb(145, 145, 145);
+}
+
+.btn{
+    margin-right: 1em;
+    /* border: solid 2px; */
+    /* border: 2px; */
+    /* border-top-color: gray;
+    border-left-color: grey; */
+
+    box-shadow: 3px 3px grey;
+
+    
+}
+.downnavs{
+    /* margin-top: 3em; */
+}
+
+.ulli{
+    /* margin-left: -2em; */
+}
+
+span{
+    font-weight: 900;
+}
+.active{
+    background: rgba(255, 255,25, .5);
+    color: red;
+
+}
+.experiance{
+    width: 100%;
+    /* margin-top: -4em;
+    padding-top: 5em; */
+}
+
+.display{
+    display: none;
+}
+#profimgnonDisplay{
+    display: none;
+}
+
+
+@media (max-width:1600px){
+    body{
+        margin: 0em;
+        background-image: url(2e3dff35309541.png);
+        padding-left: 4em;
+        padding-top: 3em;
+        padding-right: 4em;
+        padding-bottom: 2em;
+    }
+}
+
+
+@media (max-width:500px){
+    body{
+        margin: 0em;
+        background-image: url(2e3dff35309541.png);
+        padding-left: 2em;
+        padding-top: 3em;
+        padding-right: .5em;
+        padding-bottom: 2em;
+    }
+    .profile{
+
+        padding-left: 1em;
+        padding-top: 2em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+    }
+
+    h1{
+        font-size: 1em;
+        margin-top: 1em;
+    }
+    h1 span{
+        font-size: 5em;
+    }
+    #imgnonDisplay{
+        display: none;
+    }
+    #profimgnonDisplay{
+        display: block;
+    }
+
+
+}
