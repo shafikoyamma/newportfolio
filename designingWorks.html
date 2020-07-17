@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="css/stylebootcover.css">
     <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C4E03AQFJOAJJ_NeGOA/profile-displayphoto-shrink_200_200/0?e=1597276800&v=beta&t=NG2KbNgQpdtIZJR1QzifZB1RIr-etgqSyBWBB0pTChk">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/shafiWebstyle.css">
 </head>
 <body onload="onloadfunction()" >
     <div class="containerdiv">
         <div>
-            <p class="home" id="home">Home</p>
+            <p class="home" id="home"><i class="fa fa-file-image-o" aria-hidden="true"></i> Graphic Works</p>
         </div>
       <div class="profile row  ">
 
@@ -25,10 +26,13 @@
             <!-- navs  -->
             <ul id="navtab" class="nav nav-tabs">
               <li class="nav-item">
-                <a id="btnhome" class="nav-link" href="index.html">Home</a>
+                <a id="btnhome" class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
               </li>
               <li class="nav-item">
-                <a id="btnDesign" class="nav-link active " href="#">Designing Works</a>
+                <a id="btnDesign" class="nav-link active " href="#graphicDisplay"><i class="fa fa-file-image-o" aria-hidden="true"></i> Designing Works</a>
+              </li>
+              <li class="nav-item">
+                <a id="btnVideo" class="nav-link " href="#videoDisplay"><i class="fa fa-video-camera" aria-hidden="true"></i> Video Editing works</a>
               </li>
 
             </ul>
@@ -37,11 +41,13 @@
           </div>
           <!-- design tab  -->
 
-          <div id="designDisplay" class="desingtab row">
-            <h1 class="col-md-12 mb-3 d-flex justify-content-between align-items-center">Graphic Design & video Editing  
-              <span id="spnvideo" class=" spanml"><a href="#designDisplay">Edited video's</a> </span>
-              <span id="spngraphic" class="display spanml "><a href="#designDisplay">Graphic Works  </a></span>
-            </h1>
+          <div  id="designDisplay" class="desingtab row">
+            <!-- <h1 id="h1spnvideo"  class="col-md-12 mb-3 mt-3 d-flex justify-content-between align-items-center"><span></span>  
+              <span id="spnvideo" class=" spanml"><a href="#designDisplay"><i class="fa fa-video-camera" aria-hidden="true"></i> Video Editing works</a> </span>
+              <span id="spngraphic" class="display spanml "><a href="#designDisplay"><i class="fa fa-camera" aria-hidden="true"></i> Graphic designing work   </a></span>
+            </h1> -->
+
+            
 
             <div id="graphicWorks" class="graphicWorks col-md-12">
 
@@ -61,7 +67,14 @@
               
             </div>
 
-            <div id="videoEdited" class="graphicWorks display col-md-12">
+
+            
+
+          </div>
+<!-- /design tab  -->
+          <div id="videoDisplay" class="desingtab row">
+
+            <div id="videoEdited" class="graphicWorks col-md-12">
 
               <div class="row">
                 <div class="grimg col-md-4 ">
@@ -128,10 +141,10 @@
               
               
             </div>
-            
-
           </div>
-          <!-- /design tab  -->
+
+<!-- video tab  -->
+
 
 
 
