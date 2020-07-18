@@ -22,12 +22,12 @@
 }
 
 .more:hover{
-    padding: 2em;
-    opacity: 0.2;
-    width: 75%;
+    padding: .5em;
+    opacity: 0.9;
+    width: 95%;
     text-align: center;
     margin: auto;
-    transition: 1s;
+    transition: 0.3s;
 }
 .spanml{
     font-size: .5em;
